@@ -14,18 +14,17 @@
  * 
  * License?  Do whatever you want with this code - it's just a sample
  */
- 
- //globals
-let blueToothCharacteristic;//this is a blu
+
+//globals
+let blueToothCharacteristic; //this is a blu
 let receivedValue = "";
 
 let blueTooth;
-let isConnected = false;
-
+let isConnected = true;
+// let isConnected = false;
 
 var millisecondTimerStart;
 var oldColorPickerValue;
-
 
 function setup() {
   blueTooth = new p5ble();
